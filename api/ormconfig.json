@@ -1,0 +1,12 @@
+{
+    "type": "postgres",
+    "host": "localhost",
+    "port": "5432",
+    "username": "tesis",
+    "password": "tesis",
+    "database": "tesis",
+    "syncronize": true,
+    "logging": true,
+    "logger": "file",
+    "entities": ["models/*.js"]
+}
